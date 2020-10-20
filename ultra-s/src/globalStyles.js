@@ -7,4 +7,9 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
-`
+`;
+
+export const Container
+
+
+export default GlobalStyle
