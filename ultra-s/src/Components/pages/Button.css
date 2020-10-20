@@ -9,7 +9,7 @@
     outline: none;
     border: none;
     cursor: pointer;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .btn--primary{
