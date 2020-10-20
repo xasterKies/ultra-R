@@ -40,6 +40,14 @@ function Navbar() {
                                 <Link className="btn-link">
                                     <Button buttonStyle='btn--outline'>SIGN UP</Button>
                                 </Link>
+                            ) : (
+                                <Link className="btn-link">
+                                    <Button buttonStyle='btn--outline'
+                                        buttonSize='btn--mobile'
+                                    >
+                                        LOGIN
+                                    </Button>
+                                </Link>
                             )}
                         </li>
                    </ul>
