@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav } from './Navbar.element'
+import { Nav, NavbarContainer } from './Navbar.element'
 
 
 
@@ -7,10 +7,12 @@ const Navbar = () => {
     return (
         <>
             <Nav>
-                
-            <Nav/>
+                <NavbarContainer>
+
+                </NavbarContainer>
+            </Nav>
         </>
-    )
-}
+    );
+};
 
 export default Navbar
