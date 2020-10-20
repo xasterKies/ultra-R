@@ -2,9 +2,13 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <div>
-            
-        </div>
+        <>
+           <div className="navbar">
+               <div className="navbar-container container">
+                   
+               </div>
+            </div> 
+        </>
     )
 }
 
