@@ -3,12 +3,20 @@ import './Button.css';
 
 const STYLES = ['btn-primary', 'btn--outline']
 
-function Button() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const SIZES = ['btn--medium', 'btn--large', 'btn--mobile', 'btn--wide']
 
-export default Button
+const COLOR = ['primary', 'blue', 'red', 'green']
+
+
+
+export const Button = ({children, 
+    type,
+    onClick,
+    buttonStyle,
+    buttonSize,
+    buttonColor
+    }) => {
+        return(
+            <button>{children}</button>
+        )
+    }
