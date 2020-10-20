@@ -36,7 +36,7 @@ display: flex;
 align-items: center;
 `
 
-export const NavIcon = styled(FaMagneto)`
+export const NavIcon = styled(FaMagento)`
 
 margin-right: 0.5rem;
 `
