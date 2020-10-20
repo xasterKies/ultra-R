@@ -25,6 +25,21 @@ function Navbar() {
                                 Home
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to='/services' className="nav-links">
+                                Services
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/' className="nav-links">
+                                Products
+                            </Link>
+                        </li>
+                        <li className="nav-btn">
+                            {button ? (
+                                
+                            )}
+                        </li>
                    </ul>
                </div>
             </div> 
