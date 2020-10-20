@@ -4,6 +4,8 @@ import { MdFingerprint } from 'react-icons/md'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 function Navbar() {
+    const [click, setClick]
+
     return (
         <>
            <div className="navbar">
@@ -13,7 +15,7 @@ function Navbar() {
                        ULTRA
                    </Link>
                    <div className="menu-icon">
-                       {}
+                       {click  ?  <FaTimes /> : <FaBars />}
                    </div>
                </div>
             </div> 
