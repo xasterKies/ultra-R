@@ -35,3 +35,7 @@
     padding: 12px 26px;
     font-size: 20px;
 }
+
+.btn--mobile {
+    text-align: center;
+}
