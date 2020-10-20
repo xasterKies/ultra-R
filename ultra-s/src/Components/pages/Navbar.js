@@ -58,7 +58,7 @@ function Navbar() {
                                     <Button buttonStyle='btn--outline'
                                         buttonSize='btn--mobile'
                                     >
-                                        LOGIN
+                                        SIGN UP
                                     </Button>
                                 </Link>
                             )}
