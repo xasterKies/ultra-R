@@ -20,10 +20,10 @@ export const Button = ({children,
         buttonStyle : STYLE[0]
 
         const checkButtonSize = STYLES.include(buttonSize) ?
-        buttonStyle : STYLE[0]
+        buttonSize : SIZES[0]
 
-        const checkButtonStyle = STYLES.include(buttonStyle) ?
-        buttonStyle : STYLE[0]
+        const checkButtonColor = STYLES.include(buttonColor) ?
+        buttonColor : COLOR[0]
 
         return(
             <button className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`}
