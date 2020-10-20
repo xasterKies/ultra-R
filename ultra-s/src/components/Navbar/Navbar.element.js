@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { FaMagneto} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 import { Container } from '../../globalStyles'
 
 
@@ -21,4 +23,20 @@ justify-content: space-between;
 height: 80px;
 
 ${Container}
+`
+
+export const NavLogo = styled(Link)`
+
+color: #fff;
+justify-self: flex0start;
+cursor: pointer;
+text-decoration: none;
+font-size: 2rem;
+display: flex;
+align-items: center;
+`
+
+export const NavIcon = styled(FaMagneto)`
+
+margin-right: 0.5rem;
 `
