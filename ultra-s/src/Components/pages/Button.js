@@ -17,13 +17,13 @@ export const Button = ({children,
     buttonColor
     }) => {
         const checkButtonStyle = STYLES.include(buttonStyle) ?
-        buttonStyle : STYLE[0]
+        buttonStyle : STYLE[0];
 
         const checkButtonSize = STYLES.include(buttonSize) ?
-        buttonSize : SIZES[0]
+        buttonSize : SIZES[0];
 
         const checkButtonColor = STYLES.include(buttonColor) ?
-        buttonColor : COLOR[0]
+        buttonColor : COLOR[0];
 
         return(
             <button className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`}
