@@ -28,8 +28,9 @@ function Navbar() {
     window.addEventListener('resize', showButton)
 
     return (
-        <IconContext.Provider value={{ color: '#fff'}}>
+        
         <>
+            <IconContext.Provider value={{ color: '#fff'}}>
            <div className="navbar">
                <div className="navbar-container container">
                    <Link to='/' className="navbar-logo">
