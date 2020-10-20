@@ -9,7 +9,13 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
-export const Container
+export const Container = styled.div`
+z-index: 1;
+width: 100%;
+max-width: 130px;
+margin-right: auto;
+margin-left: auto;
+`
 
 
 export default GlobalStyle
