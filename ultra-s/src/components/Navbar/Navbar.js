@@ -6,6 +6,8 @@ import { Nav } from './Navbar.element'
 const Navbar = () => {
     return (
         <>
+            <Nav>
+                
             <Nav/>
         </>
     )
