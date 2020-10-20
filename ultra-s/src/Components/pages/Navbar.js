@@ -41,7 +41,7 @@ function Navbar() {
                                     <Button buttonStyle='btn--outline'>SIGN UP</Button>
                                 </Link>
                             ) : (
-                                <Link className="btn-link">
+                                <Link "/sign-up" className="btn-link">
                                     <Button buttonStyle='btn--outline'
                                         buttonSize='btn--mobile'
                                     >
