@@ -18,5 +18,5 @@ display: flex;
 justify-content: space-between;
 height: 80px;
 
-$(Container)
+${Container}
 `
