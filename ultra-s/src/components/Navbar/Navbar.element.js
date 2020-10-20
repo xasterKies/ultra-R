@@ -1,3 +1,5 @@
+import styled from 'styled-components'
+
 export const Nav = styled.nav`
 background: #101522;
 height: 80px;
