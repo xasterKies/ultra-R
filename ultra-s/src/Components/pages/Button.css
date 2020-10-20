@@ -55,6 +55,16 @@
 }
 
 .btn--large:hover, .btn--medium:hover, .btn--mobile:hover {
-    
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
 }
+
+.btn--wide:hover {
+    color: #fff; 
+    background-color: #f00946;
+    transition: all 0.2s ease-out;
+}
+
+.btn-link
 
