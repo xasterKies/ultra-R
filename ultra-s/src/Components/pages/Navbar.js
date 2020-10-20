@@ -37,7 +37,9 @@ function Navbar() {
                         </li>
                         <li className="nav-btn">
                             {button ? (
-                                
+                                <Link className="btn-link">
+                                    <Button buttonStyle='btn'>SIGN UP</Button>
+                                </Link>
                             )}
                         </li>
                    </ul>
