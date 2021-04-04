@@ -19,12 +19,13 @@
 .col {
     margin-bottom: 15px;
     padding-right: 15px;
+    padding-left: 15px;
     flex: 1;
     max-width: 50%;
     flex-basis: 50%;
 }
 
-.home__hro-text-wrapper {
+.home__hero-text-wrapper {
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
@@ -59,7 +60,7 @@
 .home__hero-subtitle {
     max-width: 440px;
     margin-bottom: 35px;
-    font-style: 18px;
+    font-size: 18px;
     line-height: 24px;
 }
 
@@ -92,9 +93,10 @@ img {
     .home__hero-text-wrapper {
         padding-bottom: 65px;
     }
+
+    .col {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
 }
 
-.col {
-    max-width: 100%;
-    flex-basis: 100%;
-}

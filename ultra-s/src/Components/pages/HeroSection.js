@@ -8,7 +8,7 @@ function HeroSection({ lightBg, topLine, lightText, lightTextDesc, headLine, des
     
     return (
         <>
-            <div className={lightBg ? 'home__hero-section' : 'home__hero-darkBg'}>
+            <div className={lightBg ? 'home__hero-section' : 'home__hero darkBg'}>
         <div className="container">
             <div className="row home__hero-row"
             style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}
@@ -24,7 +24,7 @@ function HeroSection({ lightBg, topLine, lightText, lightTextDesc, headLine, des
                             <Button buttonSize='btn--wide'buttonColor='blue' >{buttonLabel}</Button>
                         </Link>
                     </div>
-                </div>
+                </div> 
                 <div className="col">
                     <div className="home__hero-img-wrapper">
                         <img src={img} alt={alt} className="home__hero-img"/>

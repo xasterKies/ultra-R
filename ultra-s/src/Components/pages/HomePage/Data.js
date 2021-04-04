@@ -3,7 +3,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Exclusive Access',
-    headline: 'Unlimited Transaction with zero fees',
+    headLine: 'Unlimited Transaction with zero fees',
     description: 'Get access to our exclusive diamond card that allows you to send unlimited transaction without getting charged any fees',
     buttonLabel: 'Get Started',
     imgStart: '',
