@@ -5,11 +5,13 @@ import { BsXDiamondFill } from 'react-icons/bs'
 import { GiCrystalize } from 'react-icons/gi'
 import { IconContext } from 'react-icons/lib'
 import { Button } from './Button'
+import './Pricing.css'
 
 function Pricing() {
     return (
-        <IconContext.Provider value={{color: '#fff', size: 64}}></IconContext.Provider>
+        
         <div>
+            <IconContext.Provider value={{color: '#fff', size: 64}}></IconContext.Provider>
             <div className="pricing__section">
                 <div className="pricing__wrapper">
                     <h1 className="pricing__heading">Pricing</h1>
