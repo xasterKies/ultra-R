@@ -11,7 +11,7 @@ function Pricing() {
     return (
         
         <div>
-            <IconContext.Provider value={{color: '#fff', size: 64}}></IconContext.Provider>
+            
             <div className="pricing__section">
                 <div className="pricing__wrapper">
                     <h1 className="pricing__heading">Pricing</h1>
@@ -19,7 +19,10 @@ function Pricing() {
                         <Link to="/sign-up" className="pricing__container-card">
                          <div className='pricing__container-cardInfo'>
                             <div className="icon">
+                            <IconContext.Provider value={{color: '#fff', size: 64}}>
                                 <FaFire/>
+                            </IconContext.Provider>
+                                
                             </div>
                             <h3>Starter</h3>
                             <h4>$8.99</h4>
@@ -38,7 +41,10 @@ function Pricing() {
                         <Link to="/sign-up" className="pricing__container-card">
                          <div className='pricing__container-cardInfo'>
                             <div className="icon">
+                            <IconContext.Provider value={{color: '#fff', size: 64}}>
                                 <BsXDiamondFill/>
+                            </IconContext.Provider>
+                                
                             </div>
                             <h3>Gold</h3>
                             <h4>$29.99</h4>
@@ -57,7 +63,10 @@ function Pricing() {
                         <Link to="/sign-up" className="pricing__container-card">
                          <div className='pricing__container-cardInfo'>
                             <div className="icon">
+                            <IconContext.Provider value={{color: '#fff', size: 64}}>
                                 <GiCrystalize/>
+
+                            </IconContext.Provider>
                             </div>
                             <h3>Diamond</h3>
                             <h4>$99.99</h4>
