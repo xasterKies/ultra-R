@@ -16,8 +16,8 @@ function Pricing() {
                 <div className="pricing__wrapper">
                     <h1 className="pricing__heading">Pricing</h1>
                     <div className="pricing__container">
-                        <Link to="/sign-up"
-                         className='pricing__container-cardInfo'>
+                        <Link to="/sign-up" className="pricing__container-card">
+                         <div className='pricing__container-cardInfo'>
                             <div className="icon">
                                 <FaFire/>
                             </div>
@@ -29,12 +29,13 @@ function Pricing() {
                                 <li>2% cash back</li>
                                 <li>$10,000 Limit</li>
                             </ul>
+                         </div>
                             <Button buttonSize='btn--wide' buttonColor='primary'>
                                 Choose Plan
                             </Button>
                         </Link>
-                        <Link to="/sign-up"
-                         className='pricing__container-cardInfo'>
+                        <Link to="/sign-up" className="pricing__container-card">
+                         <div className='pricing__container-cardInfo'>
                             <div className="icon">
                                 <BsXDiamondFill/>
                             </div>
@@ -46,12 +47,13 @@ function Pricing() {
                                 <li>3.5% cash back</li>
                                 <li>$100,000 Limit</li>
                             </ul>
+                         </div>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
                                 Choose Plan
                             </Button>
                         </Link>
-                        <Link to="/sign-up"
-                         className='pricing__container-cardInfo'>
+                        <Link to="/sign-up" className="pricing__container-card">
+                         <div className='pricing__container-cardInfo'>
                             <div className="icon">
                                 <GiCrystalize/>
                             </div>
@@ -63,6 +65,7 @@ function Pricing() {
                                 <li>5% cash back</li>
                                 <li>$10,000 Limit</li>
                             </ul>
+                         </div>
                             <Button buttonSize='btn--wide' buttonColor='primary'>
                                 Choose Plan
                             </Button>
