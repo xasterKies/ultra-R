@@ -2,10 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaFire } from 'react-icons/fa'
 import { BsXDiamondFill } from 'react-icons/bs'
+import { GiCrystalize } from 'react-icons/gi'
+import { IconContext } from 'react-icons/lib'
 import { Button } from './Button'
 
 function Pricing() {
     return (
+        <IconContext.Provider value={{color: '#fff', size: 64}}></IconContext.Provider>
         <div>
             <div className="pricing__section">
                 <div className="pricing__wrapper">
