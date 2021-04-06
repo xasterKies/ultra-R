@@ -1,2 +1,4 @@
 # ultra-R
-use ReactJs, Styled components
+A Banking MicroFinance website.
+
+Technologies: Reactjs
